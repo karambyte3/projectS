@@ -24,7 +24,7 @@ nav ul li a:hover {
   }
 
 .heading {
-    background-image: url("/media/header.jpg");
+    background-image: url("../media/header.jpg") !important;
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -43,7 +43,7 @@ nav ul li a:hover {
 
 .services {
   /* The image used */
-  background-image: url("/media/uslugi-bg.jpg");
+  background-image: url("../media/uslugi-bg.jpg");
   /* Full height */
   height: 100%; 
   width: 100%;
@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 .card {
   margin: 5%;
-  background-color: #e9c56ac9 !important;
+  background-color: #e9c56a9d !important;
   transition: .3s;
 
 }
