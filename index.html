@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
@@ -98,17 +99,18 @@
 <!--  -->
         <!-- SERVICES -->
 <!--  -->
+<div data-aos="fade-in">
     <section id="services">
         <div class="services">
             <div class="jumbotron jumbotron-fluid" style="background-color:#e9c56a2f">
                 <div class="services-content">
-                    <h1 class="text-center font-weight-medium mr-auto ml-auto w-50 text-white" style="font-family: 'Amatic SC', cursive; font-size: 70px">Услуги</h1>
-                    <h5 class="text-center font-weight-bold pb-4 mb-4 mr-auto ml-auto w-90 text-white" style="border-bottom: 2px solid #fff; color: #5f5028; width: 65%; font-family: 'Amatic SC', cursive; font-size: 25px">Поморие
+                    <h1 data-aos="fade-up" class="text-center font-weight-medium mr-auto ml-auto w-50 text-white" style="font-family: 'Amatic SC', cursive; font-size: 70px">Услуги</h1>
+                    <h5 data-aos="fade-up" class="text-center font-weight-bold pb-4 mb-4 mr-auto ml-auto w-90 text-white" style="border-bottom: 2px solid #fff; color: #5f5028; width: 65%; font-family: 'Amatic SC', cursive; font-size: 25px">Поморие
                         е известен като курортен и лечебен център от дълбока древност. Градът е прочут с лиманната кал,
                         лугата,
                         морския климат и вода.</h5>
                     <div class="container">
-                        <div class="row">
+                        <div class="row" data-aos="fade-up">
 
                             <div class="col-lg">
                                 <div class="card">
@@ -198,15 +200,15 @@
             </div>
         </div>
     </section>
+</div>
+    <div class="container gallery-container" style="margin-bottom: 100px;" data-aos="fade-up">
 
-    <div class="container gallery-container" style="margin-bottom: 100px;">
-
-        <h1 class="font-weight-light text-center" style="font-family: 'Amatic SC', cursive; font-size: 70px">Нашата
+        <h1 class="font-weight-light text-center" style="font-family: 'Amatic SC', cursive; font-size: 70px" data-aos="fade-up">Нашата
             галерия</h1>
 
-        <p class="page-description text-center">Thumbnails With Title And Description</p>
+        <p class="page-description text-center" data-aos="fade-up">Thumbnails With Title And Description</p>
 
-        <div class="tz-gallery">
+        <div class="tz-gallery" data-aos="fade-up">
 
             <div class="row">
 
@@ -262,9 +264,9 @@
     <div style="background-image: url('media/IMG_3906.jpg'); height: 100%; width: 100%; background-position: center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; z-index: 1;">
         <div class="container-fluid" style="background-color:#4d402169">
             <div class="services-content">
-                <h1 class="text-center font-weight-medium mr-auto ml-auto w-50 text-white" style="font-family: 'Amatic SC', cursive; font-size: 70px">Отзиви
+                <h1 class="text-center font-weight-medium mr-auto ml-auto w-50 text-white" data-aos="fade-up" style="font-family: 'Amatic SC', cursive; font-size: 70px">Отзиви
                     от клиенти</h1>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <div class="row">
                         <div class="col-lg">
                             <figure class="snip1192">
@@ -344,6 +346,11 @@
         </div>
     <!-- Footer -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -353,6 +360,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script q="">
+
+
         // trigger image popover for the gallery
         baguetteBox.run('.tz-gallery');
 
